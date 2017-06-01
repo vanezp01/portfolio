@@ -1,0 +1,19 @@
+<div class="container works-container">
+  <div class="row">
+    <div class="col-md-7">
+      <%= image_tag work_img(@work.main_image, 'main'), width: '100%' %>
+    </div>
+
+    <div class="col-md-5">
+      <h1><%= @work.title %></h1>
+
+      <hr>
+
+      <em><%= @work.subtitle %></em>
+
+      <p><%= @work.body %></p>
+
+      <hr>
+    </div>
+  </div>
+</div>
